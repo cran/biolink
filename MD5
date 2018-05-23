@@ -1,7 +1,7 @@
-a1797979a0bf3df16af1836b5df02846 *DESCRIPTION
+0205b953f870ffa54e9ecce24c9dccac *DESCRIPTION
 f7472b2b1416751c55da62dd98ea2305 *LICENSE
 6cfa979efbc890db7675662e10814ae9 *NAMESPACE
-1c8c086e00e4e2eabfeb12caa324e2a4 *NEWS.md
+8e20c2fc77df2b88a2ba25428b9344e7 *NEWS.md
 e2e18535ca307e2c07257de561215cdf *R/biolink.r
 0dd411f1cbde13bb4ac73361e1b0900e *R/build-links.r
 917674e0188b8cea0ce48e13c8033b72 *R/build-urls.r
@@ -9,7 +9,7 @@ e2e18535ca307e2c07257de561215cdf *R/biolink.r
 d5e99cca5caf1bca2d2bcfc5bd8ffc86 *R/query-entrez.r
 01289d76b268f5a3b02d8f30856e44ce *R/query-go.r
 49f1e9bc508979e3e9248ece3c915e3e *R/utilities.r
-e2ec95e5a00cb55da54ce0b238c660be *README.md
+37b7a11c58d4657b0ecbd0eeb000a8cb *README.md
 b2a33af71f65c66038deccf336493bee *man/biolink.Rd
 611f4ceecfbf7e149039a45be384e9c7 *man/build_link.Rd
 c0ec98409ecab5089c58dd2285fb6f64 *man/links.Rd
@@ -25,7 +25,7 @@ e3968a3125e05a50624ee4de2e24d3b4 *tests/testthat/test-links-bioc.r
 d623351ae09bdaf5cac36c47ec09e400 *tests/testthat/test-links-kegg.r
 6abcf9db446b88e678d7bef733f43704 *tests/testthat/test-links-pubmed.r
 12d6806e696d2534c2d32ef885107a46 *tests/testthat/test-style.r
-909c7dfe8c0b73f882980cc88d1da922 *tests/testthat/test-tags-entrez.r
-5424551c05108430e78c8f1f372e46fb *tests/testthat/test-tags-go.r
-ed785a51d55301a6e9439aab165d2d61 *tests/testthat/test-tags-pubmed.r
+5b74334cb641eb7707e0dcf47c48bbfe *tests/testthat/test-tags-entrez.r
+48d2395582b472ff1aad4db854d8860d *tests/testthat/test-tags-go.r
+020288a35a8f1af3aa5be8b89a7590b8 *tests/testthat/test-tags-pubmed.r
 5ef896de0f71de3dcbb63f21fbedb3c4 *tests/testthat/test-utils.r
