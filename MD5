@@ -1,4 +1,4 @@
-0205b953f870ffa54e9ecce24c9dccac *DESCRIPTION
+87c8befc3369c8965fb929f2591995dc *DESCRIPTION
 f7472b2b1416751c55da62dd98ea2305 *LICENSE
 6cfa979efbc890db7675662e10814ae9 *NAMESPACE
 8e20c2fc77df2b88a2ba25428b9344e7 *NEWS.md
@@ -18,12 +18,12 @@ f8e78e83bfb5db12d99994360d5f0b4a *tests/testthat.R
 d121cb01280a7d0d42ff545b1e811db5 *tests/testthat/helper-functions.r
 50a6d9f2bff049ab18fac77e87cc5f1a *tests/testthat/helper-templates.r
 3105fdd5d15a54f7a5f39bc184968631 *tests/testthat/test-link-constructors.r
-e3968a3125e05a50624ee4de2e24d3b4 *tests/testthat/test-links-bioc.r
-58ca226af8759298b9e2b9cc24e2e695 *tests/testthat/test-links-cran.r
-991a1ab114fca1c511e25e466396443e *tests/testthat/test-links-entrez.r
-03b1db46c5373fac42091e708508a0ba *tests/testthat/test-links-go.r
-d623351ae09bdaf5cac36c47ec09e400 *tests/testthat/test-links-kegg.r
-6abcf9db446b88e678d7bef733f43704 *tests/testthat/test-links-pubmed.r
+197bf772897ad6a47e283d06724f1bf3 *tests/testthat/test-links-bioc.r
+35f3798346f0aa1b33c6ab3527c341cb *tests/testthat/test-links-cran.r
+6e2f736bccdc369ac054555eb2bcd508 *tests/testthat/test-links-entrez.r
+ad9affd39e69b2fff295e49f3e884f40 *tests/testthat/test-links-go.r
+d6f07c9f43babee5837c1aca50e8fedd *tests/testthat/test-links-kegg.r
+5f6106c0466b4884fec6455464725342 *tests/testthat/test-links-pubmed.r
 12d6806e696d2534c2d32ef885107a46 *tests/testthat/test-style.r
 5b74334cb641eb7707e0dcf47c48bbfe *tests/testthat/test-tags-entrez.r
 48d2395582b472ff1aad4db854d8860d *tests/testthat/test-tags-go.r
