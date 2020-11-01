@@ -1,17 +1,24 @@
 context("NCBI Entrez tag substitution")
 
-# nolint start
 ids <- c("101954267", "105369219")
-symbols <- c("RNVU1-15", "LOC105369219")
+symbols <- c("RNVU1-15", "SIRPB3P")
 locations <- c("1q21.1", "20p13")
-descriptions <- c("RNA, variant U1 small nuclear 15", "uncharacterized LOC105369219")
-# nolint end
+descriptions <- c(
+  "RNA, variant U1 small nuclear 15",
+  "signal regulatory protein beta 3, pseudogene"
+)
+
 test_that("NCBI Entrez tag retrieval", {
   skip_on_cran()
   expect_equal(query_entrez(ids, "symbol"), symbols)
+  sleep_if_keyless()
+
   expect_equal(query_entrez(ids, "location"), locations)
+  sleep_if_keyless()
+
   expect_equal(query_entrez(ids, "description"), descriptions)
-;})
+  sleep_if_keyless()
+})
 
 test_that("NCBI Entrez tag substitution", {
   skip_on_cran()
@@ -21,12 +28,14 @@ test_that("NCBI Entrez tag substitution", {
   ref  <- sprintf(hl, url, symbols[1])
   link <- link_entrez(id, "<symbol>", format = "html")
   expect_equal(link, ref)
+  sleep_if_keyless()
 
   ref  <- sprintf(hl, url, locations[1])
   link <- link_entrez(id, "<location>", format = "html")
   expect_equal(link, ref)
+  sleep_if_keyless()
 
   ref  <- sprintf(hl, url, descriptions[1])
   link <- link_entrez(id, "<description>", format = "html")
   expect_equal(link, ref)
-;})
+})

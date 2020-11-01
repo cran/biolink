@@ -27,14 +27,14 @@ url_go <- function(id) {
 #' @export
 #' @describeIn urls for KEGG Pathway Database
 url_kegg <- function(id) {
-  paste0("http://www.genome.jp/dbget-bin/www_bget?pathway:",
+  paste0("https://www.genome.jp/dbget-bin/www_bget?pathway+",
          check_id(id, "kegg"))
 }
 
 #' @export
 #' @describeIn urls for PubMed based on PMID (PubMed identifier)
 url_pubmed <- function(id) {
-  paste0("https://www.ncbi.nlm.nih.gov/pubmed/", check_id(id, "pubmed"))
+  paste0("https://pubmed.ncbi.nlm.nih.gov/", check_id(id, "pubmed"))
 }
 
 #' @export
